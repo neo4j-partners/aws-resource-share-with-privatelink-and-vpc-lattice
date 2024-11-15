@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Set up environment variables
+# Here are the environment variables to create a resource share for you
+
 resource_owner_aws_account_id="159878781974"
 resource_consumer_aws_account_id="368395742298"
 aws_region="us-west-2"
