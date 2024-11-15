@@ -34,8 +34,7 @@ if [[ -n "$pending_invite_arn" ]]; then
     AWS_PROFILE=$aws_profile aws ram accept-resource-share-invitation --resource-share-invitation-arn "$pending_invite_arn" --region $aws_region
     echo "Resource share invitation accepted successfully."
 else
-    echo "No pending resource share invitation found. Please check in the AWS console."
-    exit 1
+    echo "No pending resource share invitation found. Proceeding with the assumption it was accepted via the AWS console."
 fi
 
 # Step 3: Create Service Network
