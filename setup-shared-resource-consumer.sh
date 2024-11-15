@@ -11,7 +11,7 @@ resource_config_name="neo4j-9-rcgf"
 aws_region="us-west-2"
 service_network_name="neo4j-share-sn"
 
-head -n 15 $0
+head -n 13 $0
 echo
 read -p "Press any key to continue... " -n1 -s
 
