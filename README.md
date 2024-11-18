@@ -12,7 +12,7 @@ This repository provides guidance and scripts for managing **Resource Sharing** 
 - **Resource Owners**: Share resources from their VPCs with Consumers.  
 - **Consumers**: Accept shared resources and access them from their accounts.  
 
-### Key Steps for Resource Owners  
+### Key Steps for Resource Owners - setup-shared-resource-owner.sh
 1. **Resource-Gateway**: Acts as a hub for sharing resources in the VPC. Multiple resources can be shared through a single gateway.  
 2. **Resource-Configuration**: Defines the resource to be shared (e.g., IP address or domain name).  
    - **Single**: A standalone configuration for one resource.  
@@ -20,7 +20,7 @@ This repository provides guidance and scripts for managing **Resource Sharing** 
    - **Child**: Exists only as part of a Group configuration.  
 3. **Sharing via RAM**: Invite a Consumer account to access shared resources using Resource Access Manager.  
 
-### Key Steps for Consumers  
+### Key Steps for Consumers  - setup-shared-resource-consumer.sh
 1. **Accept the Resource-Share**: Accept the Resource Owner's invitation in RAM.  
 2. **Discover Shared Resources**: Validate the shared resources available.  
 3. **Create a Service Network**: Organize and manage shared resources.  
