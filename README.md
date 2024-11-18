@@ -4,6 +4,10 @@ This repository provides guidance and scripts for managing **Resource Sharing** 
 1. **Resource Owners** - Share resources from their VPCs with other AWS accounts.  
 2. **Consumers** - Accept and access shared resources in their accounts.
 
+### AWS Services Involved  
+- **VPC Lattice**: Simplifies connecting, securing, and monitoring service-to-service communications across VPCs and accounts. VPC Lattice is used to create a Service Network that manages access to shared resources and ensures secure connectivity.  
+- **PrivateLink**: Enables secure access to services in a shared VPC over the AWS private network. This is used to create private endpoints in the Consumer’s VPC, allowing seamless access to shared resources.  
+
 ---
 
 ## Overview  
