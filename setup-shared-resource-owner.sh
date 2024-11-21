@@ -18,7 +18,7 @@ head -n 15 $0
 echo
 read -p "Press any key to continue... " -n1 -s
 
-# Step 1: Create the Resource Gateway
+echo "Step 1: Create the Resource Gateway"
 
 echo "Executing: aws vpc-lattice create-resource-gateway \
     --vpc-identifier \"$vpc_id\" \
@@ -38,7 +38,7 @@ create_response=$(aws vpc-lattice create-resource-gateway \
 
 resource_gateway_id=$(echo "$create_response" | jq -r '.id')
 
-# Step 2: Wait for Resource Gateway to become ACTIVE
+echo "Step 2: Wait for Resource Gateway to become ACTIVE"
 status=""
 
 echo "Executing: aws vpc-lattice get-resource-gateway \
@@ -55,7 +55,7 @@ while [ "$status" != "ACTIVE" ]; do
     sleep 20
 done
 
-# Step 3: Create the Resource Configuration
+echo "Step 3: Create the Resource Configuration"
 echo "Executing: aws vpc-lattice create-resource-configuration \
     --type SINGLE \
     --resource-configuration-definition "{ \"ipResource\": { \"ipAddress\": \"$neo4j_resource_ip_addr\" } }" \
@@ -78,7 +78,7 @@ create_config_response=$(aws vpc-lattice create-resource-configuration \
 
 resource_config_id=$(echo "$create_config_response" | jq -r '.id')
 
-# Step 4: Create the Resource Share
+echo "Step 4: Create the Resource Share"
 echo
 echo "Executing: aws ram create-resource-share \
     --principals "$resource_consumer_aws_account_id" \
