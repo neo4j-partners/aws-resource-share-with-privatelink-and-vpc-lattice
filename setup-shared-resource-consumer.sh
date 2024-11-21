@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-#  Here are the environment variables to create a resource share for you
+echo "Here are the environment variables to consume a shared resource:"
 aws_profile="aura-dev"
 vpc_id="vpc-38723c40"
 subnet_ids="subnet-7e5c9934 subnet-1dd90265" 
