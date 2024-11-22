@@ -2,7 +2,7 @@
 #!/bin/bash
 
 echo "Here are the environment variables to consume a shared resource:"
-aws_profile="aura-dev"
+aws_profile="neo4j-consumer-profile"
 vpc_id="vpc-1234"
 subnet_ids="subnet-1234 subnet-1234" 
 security_group_id="sg-1234"
