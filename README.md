@@ -8,6 +8,8 @@ This repository provides guidance and scripts for managing **Resource Sharing** 
 - **VPC Lattice**: Simplifies connecting, securing, and monitoring service-to-service communications across VPCs and accounts. VPC Lattice is used to create a Service Network that manages access to shared resources and ensures secure connectivity.  
 - **PrivateLink**: Enables secure access to services in a shared VPC over the AWS private network. This is used to create private endpoints in the Consumer’s VPC, allowing seamless access to shared resources.  
 
+
+![alt text](https://raw.githubusercontent.com/neo4j-partners/aws-resource-share-with-privatelink-and-vpc-lattice/9d9d02fb262f7099631e8ee54bc8551e04f0d2f5/AWS_Neo4j_share_Resoiurces.jpg?token=GHSAT0AAAAAAC2Q5VVACBFVWRVJGSHPL3LIZZ75R5A)
 ---
 
 ## Overview  
