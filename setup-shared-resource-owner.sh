@@ -2,12 +2,12 @@
 
 echo "Here are the environment variables to share a resource:"
 
-resource_owner_aws_account_id="159878781974"
-resource_consumer_aws_account_id="368395742298"
+resource_owner_aws_account_id="xxxx1974"
+resource_consumer_aws_account_id="xxxx2298"
 aws_region="us-west-2"
-vpc_id="vpc-07327499f3628a5ae"
-subnet_id="subnet-006f7e00c5aa23923"
-security_group_ids="sg-0dd65de03c721b8cc"
+vpc_id="vpc-01234"
+subnet_id="subnet-01234"
+security_group_ids="sg-01234"
 resource_gateway_name="neo4j-owner-rgw"
 neo4j_resource_ip_addr="10.0.0.221"
 neo4j_port_ranges="7474-7687"
