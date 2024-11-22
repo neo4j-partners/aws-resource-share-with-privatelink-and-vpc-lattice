@@ -3,11 +3,11 @@
 
 echo "Here are the environment variables to consume a shared resource:"
 aws_profile="aura-dev"
-vpc_id="vpc-38723c40"
-subnet_ids="subnet-7e5c9934 subnet-1dd90265" 
-security_group_id="sg-0b6f5dabbfa66b496"
-resource_gateway_id="rgw-0982158b1857400ae"
-resource_config_name="neo4j-9-rcgf"
+vpc_id="vpc-1234"
+subnet_ids="subnet-1234 subnet-1234" 
+security_group_id="sg-1234"
+resource_gateway_id="rgw-1234"
+resource_config_name="neo4j-rcgf"
 aws_region="us-west-2"
 service_network_name="neo4j-share-sn"
 
