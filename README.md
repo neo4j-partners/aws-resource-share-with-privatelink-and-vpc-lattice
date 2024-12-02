@@ -9,7 +9,7 @@ This repository provides guidance and scripts for managing **Resource Sharing** 
 - **PrivateLink**: Enables secure access to services in a shared VPC over the AWS private network. This is used to create private endpoints in the Consumer’s VPC, allowing seamless access to shared resources.  
 
 
-![alt text](https://raw.githubusercontent.com/neo4j-partners/aws-resource-share-with-privatelink-and-vpc-lattice/9d9d02fb262f7099631e8ee54bc8551e04f0d2f5/AWS_Neo4j_share_Resoiurces.jpg?token=GHSAT0AAAAAAC2Q5VVACBFVWRVJGSHPL3LIZZ75R5A)
+![alt text](https://github.com/neo4j-partners/aws-resource-share-with-privatelink-and-vpc-lattice/blob/main/AWS_Neo4j_share_Resoiurces.jpg?raw=true)
 ---
 
 ## Overview  
